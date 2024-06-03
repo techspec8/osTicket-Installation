@@ -18,10 +18,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Install / Enable IIS in Windows WITH CGI
+- Install / Enable IIS in Windows with CGI
 - Install MySQL / Setup Username and Password
-- Install C++ Redistributable
-- Configured Permissions / Install osTicket
+- Register PHP from within IIS / Enable Extensions
+- Install HeidiSQL Extension
+- Configure Permissions / Install osTicket
 
 
 <h2>Installation Steps</h2>
@@ -33,7 +34,7 @@ Install and Enable IIS with CGI and Common HTTP Features
 <img src= https://i.imgur.com/6el85cH.png</p> <img src= https://i.imgur.com/FLESqr3.png</p>
 <br />
 
-<p> Download PHP and the Rewrite Module for IIS then, create a folder named PHP to unzip the files
+<p> Download PHP and the Rewrite Module for IIS, and create a folder to unzip PHP files into
 </p>
 <img src= https://i.imgur.com/eFR13SD.png
 </p>
@@ -45,17 +46,39 @@ Install and Enable IIS with CGI and Common HTTP Features
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/PCugi55.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p> Open IIS as Admin from the start menu and register PHP from within IIS then, restart the server
 </p>
-<p>
-Access osTicket broswer and going through the setup process to install osTicket
+<img src= https://i.imgur.com/wXSwTHv.png
+</p>
+</p>
+<img src= https://i.imgur.com/WUDIofp.png
 </p>
 <br />
- <p>
-<img src="https://i.imgur.com/xGK6tfd.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>
+Access the osTicket browser to confirm installation, then from osTicket enable PHP extensions 
 </p>
 <p>
-Installed osTicket and go through the log on screen to create tickets
+<img src= https://i.imgur.com/LWZflrd.png
+</p>
+<p>
+<img src= https://i.imgur.com/E1j7g0z.png
+</p>
+<br />
+
+<p>
+Install HeidiSQL to connect to the SQL database, name a new connection to the SQL database, 
+</p>
+<p><img src= https://i.imgur.com/SGj9wCt.png</p> <img src= https://i.imgur.com/3cYkcLY.png</p>
+<p>
+<img src= https://i.imgur.com/FbHgF7W.png
+</p>
+<br />
+  
+<p>
+Complete the osTicket installation and log in to begin creating tickets
+</p>
+ <p>
+<img src= https://i.imgur.com/5qMppiG.png
 </p>
 <br />
